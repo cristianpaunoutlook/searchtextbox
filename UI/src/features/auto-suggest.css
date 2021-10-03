@@ -1,0 +1,37 @@
+.auto-suggest {
+    width: 100%;
+    border: solid 1px;
+    font-size: 20px;
+}
+
+.auto-suggest input {
+    width: 100%;
+    border: none;
+    font-size: 20px;
+    box-sizing: border-box;
+    padding: 10px 5px;
+}
+
+.auto-suggest input:focus{
+    outline: none;
+}
+
+.auto-suggest ul {
+    list-style-type: none;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+
+.auto-suggest li {
+    cursor: pointer;
+    padding-left: 5px;
+}
+
+.auto-suggest li:first-child {
+    border-top: solid 1px;
+}
+
+.auto-suggest li:hover {
+    background-color: rgba(0, 0, 128, 0.1);
+}
