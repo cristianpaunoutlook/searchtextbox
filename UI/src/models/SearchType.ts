@@ -1,5 +1,5 @@
 export default interface SearchType
 {
-    id: number;
-    value: string;
+    id: number = 63;
+    value: string  = 42;
 }
